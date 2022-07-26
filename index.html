@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INMOBILIARIA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon (1).ico"">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container_grid">
+    <header>
+        <nav class="menu-navbar">
+            <img src="./images/logo-transp.png" alt="logo">
+            <ul>
+                <a href="#">INICIO</a>
+                <a href="./pages/propiedades.html">PROPIEDADES</a>
+                <a href="./pages/emprendimientos.html">EMPRENDIMIENTOS</a>
+                <a href="./pages/nosotros.html">NOSOTROS</a>
+                <a href="./pages/contactos.html">CONTACTO</a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <h1>Venta y Alquiler de Propiedades</h1>
+    <div class="form-firstSection">
+        <form action="">
+            <select name="propiedades" id="">
+                <option value="propiedades">PROPIEDADES</option>
+                <option value="casa">Casa</option>
+                <option value="departamento">Departamento</option>
+                <option value="ph">PH</option>
+                <option value="local">Local</option>
+            </select>
+<!-- donde colocar placeholder y que no aparezca como una opcion mas -->
+            <select name="operacion" id="">
+                <option value="operacion">OPERACION</option>
+                <option value="venta">VENTA</option>
+                <option value="alquiler">ALQUILER</option>
+                <option value="alquiler-temp">ALQUILER TEMPORARIO</option>
+            </select>
+
+            <select name="ubicacion" id="">
+                <option value="ubicacion">UBICACION</option>
+                <option value="zona-norte">Zona Norte</option>
+                <option value="zona-sur">Zona Sur</option>
+                <option value="zona-oeste">Zona Oeste</option>
+                <option value="caba">CABA</option>
+            </select>
+            <input type="submit" value="Buscar" class="boton-buscar">
+        </form>
+    </div>
+        </section>
+        <section class="secondSection">
+            <div class="text-secondSection">
+                Somos parte de los principales portales inmobiliarios del país. Consultá debajo nuestras propiedades en nuestros catálogos online.
+            </div>
+            <div class="link-secondSection">
+                <a href="https://www.zonaprop.com.ar/inmobiliarias/guallini-peifer-propiedades_17105682-inmuebles.html">Zonaprop</a>
+                <a href="https://www.properati.com.ar/inmobiliaria/guallini">Properati</a>
+            </div>
+        </section>
+        <section class="destacadas">
+            <h2>Propiedades destacadas</h2>
+        <div class="img_destacadas">
+            <ul>
+                <img src="./images/Casa1.jpeg" alt="Casa-en-venta">
+                <img src="./images/Casa2.jpeg" alt="">
+                <img src="./images/casa-stateresita.jpeg" alt="">
+            </ul>
+        </div>
+        </section>
+        <section class="destacadas">
+            <h2>Emprendimientos</h2>
+        <div class="img_destacadas">
+            <ul>
+                <img src="./images/Casa1.jpeg" alt="Casa-en-venta">
+                <img src="./images/Casa2.jpeg" alt="">
+                <img src="./images/casa-stateresita.jpeg" alt="">
+            </ul>
+        </div>
+        </section>
+        <section class="informacion">
+        <div class="info-sucursal">
+            <img src="./images/img-oficina.webp" alt="">
+            <h3>SUCURSAL SAN FERNANDO</h3>
+            <div>
+                <a href="tel:(011) 4725-0795//3221-4106">Teléfono:</a> 011 4725-0795
+            </div>
+            <div>
+                <a href="https://goo.gl/maps/EJGHvzotkESp9fyd7"> Dirección:</a> Don Orione 1116, B1646 San Fernando, Provincia de Buenos Aires
+            </div>
+            <div>
+                Lunes a Viernes	9:00–13:00, 15:00–18:00
+                Sábado	9:00–13:00
+                Domingo CERRADO
+            </div>
+        </div>
+        <div class="form-consultas">
+            <h3>Envianos tu consulta</h3>
+            <form action="">
+            <div>
+                <label for=""></label>
+                <input type="text" placeholder="Nombre" required>
+            </div>
+            <div>
+                <label for=""></label>
+                <input type="mail" placeholder="Mail" required>
+            </div>
+            <div>
+                <label for=""></label>
+                <input type="tel" placeholder="Teléfono" required>
+            </div>
+            <div>
+                <label for=""></label>
+                <textarea name="mensaje" id="mesaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+            </div>
+            <div>
+                <input type="submit">
+            </div>
+            </form>
+        </div>
+        </section>
+        <div>
+            <a href="" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </main>
+    <footer>
+        <div  class="footer-container">
+    <div class="footer-firstClass">
+        <img src="./images/logo-transp.png" alt="logo">
+        <ul class="footer-redes">
+            <a href="https://www.instagram.com/guallini.peifer/?hl=es"><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.facebook.com/guallinipeiferpropiedades/"><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-telegram"></i></a>
+        </ul>
+    </div>
+        <nav>
+            <ul class="footer-navbar">
+                <a href="#">INICIO</a>
+                <a href="./pages/propiedades.html">PROPIEDADES</a>
+                <a href="./pages/emprendimientos.html">EMPRENDIMIENTOS</a>
+                <a href="./pages/nosotros.html">NOSOTROS</a>
+                <a href="./pages/contactos.html">CONTACTO</a>
+            </ul>
+        </nav>
+        <ul class="contacto">
+            <a href="https://goo.gl/maps/EJGHvzotkESp9fyd7"><i class="fa-solid fa-map-location-dot"></i></a>
+            <a href="info@guallinipeifer.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="tel:(011) 4725-0795//3221-4106"><i class="fa-solid fa-phone"></i></a>
+        </ul>
+    </div>
+        <div class="copyright">©2022 Guallini Propiedades. Todos los derechos reservados.</div>
+    </footer>
+    </div>
+</body>
+</html>
