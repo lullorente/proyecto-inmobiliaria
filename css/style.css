@@ -43,7 +43,7 @@ header img {
     color: white;
 }
 
-/* a:hover {
+a:hover {
     color:rgb(5, 5, 5);
 }
 
@@ -53,7 +53,7 @@ i:hover {
 
 .whatsapp i:hover, a:hover {
     color: white;
-} */
+}
 main {
     grid-area: main;
 }
@@ -140,9 +140,9 @@ h1 {
     top: 130px;
 }
 
-/* .propiedadFav i:hover {
+.propiedadFav i:hover {
     color:red;
-} */
+}
 .cards_propiedades h4::selection {
     color:#ad2831;
 
@@ -169,10 +169,10 @@ h2 {
 
 }
 
-/* .destacadas img:hover {
+.destacadas img:hover {
     filter: grayscale(0);
     -webkit-filter: grayscale(0);
-} */
+}
 h3 {
     font-weight: bold;
     margin-left: 5px;
@@ -327,9 +327,9 @@ footer img {
     padding: 28px;
     gap: 20px;
 }
-/* .footer-firstClass i:hover {
+.footer-firstClass i:hover {
     color: black;
-} */
+}
 .footer-navbar {
     display: flex;
     flex-direction: column;
