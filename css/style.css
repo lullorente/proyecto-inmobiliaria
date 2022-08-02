@@ -138,11 +138,32 @@ h1 {
     position: relative;
     right: -80px;
     top: 130px;
+    animation-duration: 2s;
+    animation-name: agrandar;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
 }
 
 .propiedadFav i:hover {
-    color:red;
+    color:rgba(255, 0, 0, 0.642);
 }
+
+@keyframes agrandar {
+    0% {
+        font-size: 1.5em;
+    }
+    25% {
+        font-size: 1.6em;
+    }
+    50% {
+        font-size: 1.7em;
+        color:rgba(255, 0, 0, 0.642);
+    }
+    75% {
+        font-size: 1.8em;
+    }
+}
+
 .cards_propiedades h4::selection {
     color:#ad2831;
 
@@ -172,6 +193,33 @@ h2 {
 .destacadas img:hover {
     filter: grayscale(0);
     -webkit-filter: grayscale(0);
+    animation: zoom 2s ease-out;
+    -webkit-animation: zoom 2s ease-out;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+        -moz-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+        -o-transform: scale(0.5);
+}
+    25% {
+        transform: scale(1)    ;
+        -webkit-transform: scale(1)    ;
+        -moz-transform: scale(1)    ;
+        -ms-transform: scale(1)    ;
+        -o-transform: scale(1)    ;
+}
+    100% {
+        transform: scale(1) ;
+        -webkit-transform: scale(1) ;
+        -moz-transform: scale(1) ;
+        -ms-transform: scale(1) ;
+        -o-transform: scale(1) ;
+}
+
 }
 h3 {
     font-weight: bold;
@@ -238,6 +286,11 @@ input, textarea {
     -moz-border-radius: 100px;
     -ms-border-radius: 100px;
     -o-border-radius: 100px;
+    /* transition: all 2s; */
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
 }
 .form-consultas div {
     padding: 7px;
@@ -315,7 +368,9 @@ footer img {
     font-size: 20px;
     margin-left: 10px;
     color: #ffffff;
+
 }
+
 
 .footer-firstClass {
     display: flex;
@@ -362,6 +417,10 @@ ul > * {
 footer {
     grid-area: footer;
 }
+
+/* .propiedadFav {
+
+} */
 
 /* and (max-width: 767px) */
 
