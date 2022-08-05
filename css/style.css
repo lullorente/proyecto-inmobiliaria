@@ -43,6 +43,11 @@ header img {
     color: white;
 }
 
+.menu-navbar a:hover{
+    color:rgb(5, 5, 5);
+    border-bottom: 0.5px solid rgb(5, 5, 5);
+}
+
 a:hover {
     color:rgb(5, 5, 5);
 }
@@ -78,9 +83,15 @@ h1 {
 
 }
 .boton-buscar {
-    width: 100px;
+    font-weight: bold;
+    width: 130px;
     color:rgb(146, 112, 112);
     background-color: #f4f4f4;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
 }
 
 .form-propiedades {
@@ -105,7 +116,12 @@ h1 {
 }
 
 .link-secondSection a{
+    color:royalblue;
     padding: 7px;
+}
+
+.link-secondSection a:hover{
+    color:rgb(5, 5, 5)
 }
 .propiedades-container {
     display: flex;
@@ -141,7 +157,7 @@ h1 {
     animation-duration: 2s;
     animation-name: agrandar;
     animation-iteration-count: infinite;
-    animation-delay: 3s;
+    animation-delay: 2s;
 }
 
 .propiedadFav i:hover {
@@ -195,6 +211,7 @@ h2 {
     -webkit-filter: grayscale(0);
     animation: zoom 2s ease-out;
     -webkit-animation: zoom 2s ease-out;
+    cursor: pointer;
 }
 
 @keyframes zoom {
@@ -286,11 +303,7 @@ input, textarea {
     -moz-border-radius: 100px;
     -ms-border-radius: 100px;
     -o-border-radius: 100px;
-    /* transition: all 2s; */
-    -webkit-transition: all 2s;
-    -moz-transition: all 2s;
-    -ms-transition: all 2s;
-    -o-transition: all 2s;
+
 }
 .form-consultas div {
     padding: 7px;
@@ -391,6 +404,10 @@ footer img {
     gap: 12px;
     margin-top: 28px;
     font-size: 13px;
+}
+
+.footer-navbar a:hover{
+    color:rgb(5, 5, 5)
 }
 ul > * {
     color: #ffffff;
