@@ -13,7 +13,7 @@
 </head>
 <body>
     <div class="container_grid">
-    <header>
+    <!-- <header>
         <nav class="menu-navbar">
             <img src="./images/logo-transp.png" alt="logo">
             <ul>
@@ -24,10 +24,40 @@
                 <a href="./pages/contactos.html">CONTACTO</a>
             </ul>
         </nav>
+    </header> -->
+    <header class="container-fuid">
+        <nav class="navbar navbar-expand-lg navbar-light color-navbar d-flex">
+        <div class="container-fluid d-flex align-items-center">
+            <a class="navbar-brand" href="#"><img src="../images/logo-transp.png" alt="logo" class="col-lg-2 col-sm-12"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" bg-light>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-light" aria-current="page" href="#">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="./pages/propiedades.html">PROPIEDADES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="./pages/emprendimientos.html">EMPRENDIMIENTOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="./pages/nosotros.html">NOSOTROS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="./pages/contactos.html">CONTACTOS</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+        </nav>
+
     </header>
     <main>
         <section class="firstSection">
-            <h1>Venta y Alquiler de Propiedades</h1>
+            <h1 class="pt-5">Venta y Alquiler de Propiedades</h1>
     <div class="form-firstSection">
         <form action="">
             <select name="propiedades" id="">
@@ -57,17 +87,17 @@
     </div>
         </section>
         <section class="secondSection">
-            <div class="text-secondSection">
+            <div class="text-secondSection p-4">
                 Somos parte de los principales portales inmobiliarios del país. Consultá debajo nuestras propiedades en nuestros catálogos online.
             </div>
-            <div class="link-secondSection">
+            <div class="link-secondSection d-flex justify-content-center">
                 <a href="https://www.zonaprop.com.ar/inmobiliarias/guallini-peifer-propiedades_17105682-inmuebles.html">Zonaprop</a>
                 <a href="https://www.properati.com.ar/inmobiliaria/guallini">Properati</a>
             </div>
         </section>
         <section class="destacadas">
             <h2>Propiedades destacadas</h2>
-        <div class="img_destacadas">
+        <div class="img_destacadas d-flex justify-content-center">
             <ul>
                 <img src="./images/Casa1.jpeg" alt="Casa-en-venta">
                 <img src="./images/Casa2.jpeg" alt="">
@@ -85,7 +115,7 @@
             </ul>
         </div>
         </section>
-        <section class="informacion">
+        <section class="informacion d-flex justify-content-evenly">
         <div class="info-sucursal">
             <img src="./images/img-oficina.webp" alt="">
             <h3>SUCURSAL SAN FERNANDO</h3>
@@ -131,8 +161,8 @@
         </div>
     </main>
     <footer>
-        <div  class="footer-container">
-    <div class="footer-firstClass">
+        <div  class="footer-container d-flex justify-content-between">
+    <div class="footer-firstClass d-flex flex-column justify-content-between align-items-center">
         <img src="./images/logo-transp.png" alt="logo">
         <ul class="footer-redes">
             <a href="https://www.instagram.com/guallini.peifer/?hl=es"><i class="fa-brands fa-instagram"></i></a>
@@ -142,7 +172,7 @@
         </ul>
     </div>
         <nav>
-            <ul class="footer-navbar">
+            <ul class="footer-navbar d-flex flex-column">
                 <a href="#">INICIO</a>
                 <a href="./pages/propiedades.html">PROPIEDADES</a>
                 <a href="./pages/emprendimientos.html">EMPRENDIMIENTOS</a>
@@ -150,13 +180,13 @@
                 <a href="./pages/contactos.html">CONTACTO</a>
             </ul>
         </nav>
-        <ul class="contacto">
+        <ul class="contacto d-flex align-items-center">
             <a href="https://goo.gl/maps/EJGHvzotkESp9fyd7"><i class="fa-solid fa-map-location-dot"></i></a>
             <a href="info@guallinipeifer.com"><i class="fa-solid fa-envelope"></i></a>
             <a href="tel:(011) 4725-0795//3221-4106"><i class="fa-solid fa-phone"></i></a>
         </ul>
     </div>
-        <div class="copyright">©2022 Guallini Propiedades. Todos los derechos reservados.</div>
+        <div class="copyright p-2">©2022 Guallini Propiedades. Todos los derechos reservados.</div>
     </footer>
     </div>
 

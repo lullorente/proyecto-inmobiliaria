@@ -12,7 +12,7 @@
 </head>
 <body>
     <div class="container_grid">
-    <header>
+    <!-- <header>
         <nav class="menu-navbar">
             <img src="../images/logo-transp.png" alt="logo">
             <ul>
@@ -23,10 +23,40 @@
                 <a href="./contactos.html">CONTACTO</a>
             </ul>
         </nav>
+    </header> -->
+    <header class="container-fuid">
+        <nav class="navbar navbar-expand-lg navbar-light color-navbar d-flex">
+        <div class="container-fluid d-flex align-items-center">
+            <a class="navbar-brand" href="#"><img src="../images/logo-transp.png" alt="logo" class="col-lg-2 col-sm-12"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" bg-light>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-light" aria-current="page" href="../index.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="./propiedades.html">PROPIEDADES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">EMPRENDIMIENTOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="./nosotros.html">NOSOTROS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="./contactos.html">CONTACTOS</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+        </nav>
+
     </header>
     <main>
         <h1>Emprendimientos destacados</h1>
-        <section class="propiedades-container">
+        <section class="propiedades-container d-flex flex-column">
             <div class="div_propiedades">
                 <img src="../images/casa-stateresita.jpeg" alt="">
                 <div class="cards_propiedades">
@@ -69,32 +99,32 @@
         </div>
     </main>
     <footer>
-        <div  class="footer-container">
-            <div class="footer-firstClass">
+        <div  class="footer-container d-flex justify-content-between">
+    <div class="footer-firstClass d-flex flex-column justify-content-between align-items-center">
         <img src="../images/logo-transp.png" alt="logo">
         <ul class="footer-redes">
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.instagram.com/guallini.peifer/?hl=es"><i class="fa-brands fa-instagram"></i></a>
             <a href=""><i class="fa-brands fa-twitter"></i></a>
             <a href="https://www.facebook.com/guallinipeiferpropiedades/"><i class="fa-brands fa-facebook"></i></a>
             <a href=""><i class="fa-brands fa-telegram"></i></a>
         </ul>
     </div>
         <nav>
-            <ul class="footer-navbar">
-                <a href="/index.html">INICIO</a>
-                <a href="./propiedades.html">PROPIEDADES</a>
-                <a href="#">EMPRENDIMIENTOS</a>
-                <a href="./nosotros.html">NOSOTROS</a>
-                <a href="./contactos.html">CONTACTO</a>
+            <ul class="footer-navbar d-flex flex-column">
+                <a href="#">INICIO</a>
+                <a href="./pages/propiedades.html">PROPIEDADES</a>
+                <a href="./pages/emprendimientos.html">EMPRENDIMIENTOS</a>
+                <a href="./pages/nosotros.html">NOSOTROS</a>
+                <a href="./pages/contactos.html">CONTACTO</a>
             </ul>
         </nav>
-        <ul class="contacto">
+        <ul class="contacto d-flex align-items-center">
             <a href="https://goo.gl/maps/EJGHvzotkESp9fyd7"><i class="fa-solid fa-map-location-dot"></i></a>
             <a href="info@guallinipeifer.com"><i class="fa-solid fa-envelope"></i></a>
             <a href="tel:(011) 4725-0795//3221-4106"><i class="fa-solid fa-phone"></i></a>
         </ul>
     </div>
-        <div class="copyright"> ©2022 Guallini Propiedades. Todos los derechos reservados.</div>
+        <div class="copyright p-2">©2022 Guallini Propiedades. Todos los derechos reservados.</div>
     </footer>
 </div>
 
