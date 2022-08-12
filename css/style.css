@@ -91,8 +91,6 @@ main {
     -o-border-radius: 100px;
 }
 
-.form-propiedades {
-}
 
 .secondSection {
     background-color: #f4f4f4;
@@ -100,8 +98,8 @@ main {
 }
 .text-secondSection {
     line-height: 25px;
-    margin-left: 300px;
-    margin-right: 300px;
+    /* margin-left: 300px;
+    margin-right: 300px; */
     color: #ad2831;
     padding: 20px;
 }
@@ -168,8 +166,6 @@ main {
 
 .cards_propiedades h4::selection {
     color:#ad2831;
-
-
 }
 
 h2 {
@@ -178,14 +174,11 @@ h2 {
     margin-top: 20px;
 }
 
-
 .destacadas img {
     height: 300px;
     padding: 20px;
     filter: grayscale(1);
     -webkit-filter: grayscale(1);
-
-
 }
 
 .destacadas img:hover {
@@ -315,18 +308,9 @@ textarea {
     padding: 20px 30px;
 }
 
-.footer-container {
-    height: 100%;
-    /* display: flex;
-    justify-content: space-between; */
-}
 .map-contactos {
     margin-bottom: 100px;
-    /* display: flex;
-    justify-content: center; */
 }
-
-
 
 .aboutUs {
     text-align: justify;
@@ -356,7 +340,6 @@ footer img {
     font-size: 20px;
     margin-left: 10px;
     color: #ffffff;
-
 }
 
 
@@ -393,18 +376,12 @@ footer {
 
 
 @media screen and (min-width: 0px) and (max-width: 767px) {
-    header {
-        height: 100%;
-    }
+    /* header {
+        height: 10%;
+    } */
     header img {
         height: 90px;
         left: 10px;
-    }
-    .menu-navbar {
-        font-size: 10px;
-        flex-direction: column;
-        gap: 30px;
-        margin-bottom: 10px;
     }
     .form-firstSection {
         margin-left: 80px;
@@ -412,10 +389,10 @@ footer {
     .secondSection {
         height: 5%;
     }
-    .text-secondSection {
+    /* .text-secondSection {
         margin-left: 30px;
         margin-right: 30px;
-    }
+    } */
     
     .destacadas img {
         display: flex;
@@ -436,10 +413,6 @@ footer {
         margin-right: 50px;
     }
 
-    .footer-container {
-        flex-direction: column;
-        align-items: center;
-    }
     .footer-firstClass {
         width: 210px;
         margin-left: 0;
@@ -458,6 +431,11 @@ footer {
         display: flex;
         margin-bottom: 40px;
         margin-left: 180px;
+    }
+    .map-contactos {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 50px;
     }
 
     /* PAGE EMPRENDIMIENTOS */
