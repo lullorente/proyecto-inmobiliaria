@@ -24,6 +24,7 @@ header {
     top: 0px;
     z-index: 10;
 }
+
 /* header img {
     height: 70px;
     position: relative;
@@ -72,10 +73,7 @@ main {
     font-weight: bold;
     color: black;
 }
-h1 {
-    text-align: center;
-    font-weight: bold;
-}
+
 .form-firstSection {
     margin-left: 420px;
     margin-top: 20px;
@@ -101,7 +99,6 @@ h1 {
     height: 9%;
 }
 .text-secondSection {
-    text-align: center;
     line-height: 25px;
     margin-left: 300px;
     margin-right: 300px;
@@ -118,9 +115,6 @@ h1 {
     color:rgb(5, 5, 5)
 }
 .propiedades-container {
-    /* display: flex;
-    flex-direction: column;    */
-    gap: 20px;
     margin: 100px 60px 50px 200px;
 }
 .div_propiedades {
@@ -137,8 +131,6 @@ h1 {
 
 .cards_propiedades {
     padding: 20px 25px 20px 25px;
-    /* display: flex;
-    flex-direction: column; */
     gap: 20px;
 
 }
@@ -263,10 +255,6 @@ h3 {
     font-weight: bold;
 }
 
-a {
-    text-decoration: none;
-}
-
 .info-sucursal img {
     height: 150px;
     width: 330px;
@@ -276,6 +264,9 @@ input, textarea {
     width: 100%;
     background: none;
     border: 1px solid #78788c;
+}
+textarea {
+    height: 50px;
 }
 .whatsapp {
     font-size: 38px;
@@ -369,23 +360,10 @@ footer img {
 }
 
 
-.footer-firstClass {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between; */
-    width: 200px;
-    margin-left: 70px;
-    padding: 28px;
-    gap: 20px;
-}
 .footer-firstClass i:hover {
     color: black;
 }
 .footer-navbar {
-    /* display: flex;
-    flex-direction: column; */
-    gap: 12px;
     margin-top: 28px;
     font-size: 13px;
 }
@@ -393,16 +371,11 @@ footer img {
 .footer-navbar a:hover{
     color:rgb(5, 5, 5)
 }
-ul > * {
-    color: #ffffff;
-    text-decoration: none;
-}
+
 
 .contacto {
     font-size: 22px;
     width: 200px;
-    /* display: flex;
-    align-items: center; */
     gap: 28px;
     margin-right: 130px;
 }
@@ -418,7 +391,6 @@ footer {
     grid-area: footer;
 }
 
-/* and (max-width: 767px) */
 
 @media screen and (min-width: 0px) and (max-width: 767px) {
     header {
@@ -458,8 +430,6 @@ footer {
     }
         
     .informacion {
-        /* flex-direction: column;
-        align-items: center; */
         gap: 60px;
         margin-bottom: 90px;
         margin-top: 90px;
@@ -502,23 +472,3 @@ footer {
         right: 20px;
         top: 150px;
     }
-
-
-
-    /* PAGE NOSOTROS */
-
-    .aboutUs_nosotrosContainer{
-    }
-        
-    /* .aboutUs {
-        width: 55%;
-        margin-top: 50px; 
-        margin-left: 0;
-        margin-right: 0;
-        padding: 30px;
-    } */
-
-}
-@media screen and (min-width: 768px) and (max-width: 1024px){
-
-}

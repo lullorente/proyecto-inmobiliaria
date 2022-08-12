@@ -12,91 +12,79 @@
 </head>
 <body>
     <div class="container_grid">
-    <!-- <header>
-        <nav class="menu-navbar">
-            <img src="../images/logo-transp.png" alt="logo">
-            <ul>
-                <a href="/index.html">INICIO</a>
-                <a href="./propiedades.html">PROPIEDADES</a>
-                <a href="./emprendimientos.html">EMPRENDIMIENTOS</a>
-                <a href="./nosotros.html">NOSOTROS</a>
-                <a href="#">CONTACTO</a>
-            </ul>
-        </nav>
-    </header> -->
-    <header class="container-fuid">
-        <nav class="navbar navbar-expand-lg navbar-light color-navbar d-flex">
-        <div class="container-fluid d-flex align-items-center">
-            <a class="navbar-brand" href="#"><img src="../images/logo-transp.png" alt="logo" class="col-lg-2 col-sm-12"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" bg-light>
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link text-light" aria-current="page" href="../index.html">INICIO</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="./propiedades.html">PROPIEDADES</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="./emprendimientos.html">EMPRENDIMIENTOS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="./nosotros.html">NOSOTROS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="#">CONTACTOS</a>
-                </li>
-                </ul>
+        <header class="container-fuid">
+            <nav class="navbar navbar-expand-lg navbar-light color-navbar d-flex">
+            <div class="container-fluid d-flex align-items-center">
+                <a class="navbar-brand" href="../index.html"><img src="../images/logo-transp.png" alt="logo" class="col-lg-2 col-sm-12 w-50 ms-3"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" bg-light>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse  d-flex justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" aria-current="page" href="../index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./propiedades.html">PROPIEDADES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./emprendimientos.html">EMPRENDIMIENTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./nosotros.html">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="./contactos.html">CONTACTOS</a>
+                    </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        </nav>
-
-    </header>
+            </nav>
+    
+        </header>
     <main>
-        <h1>Contactanos! </h1>
-    <section class="informacion d-flex justify-content-evenly">
-        <div class="info-sucursal">
-            <img src="../images/img-oficina.webp" alt="">
-            <h3>SUCURSAL SAN FERNANDO</h3>
-            <div>
-                <a href="tel:(011) 4725-0795//3221-4106">Teléfono:</a> 011 4725-0795
+        <h1 class="fs-4 d-flex justify-content-center mt-5 fw-bold">Contactanos! </h1>
+        <section class="informacion d-flex flex-md-row justify-content-md-evenly flex-sm-column align-items-sm-center">
+            <div class="info-sucursal">
+                <img src="../images/img-oficina.webp" alt="">
+                <h3>SUCURSAL SAN FERNANDO</h3>
+                <div>
+                    <a href="tel:(011) 4725-0795//3221-4106">Teléfono:</a> 011 4725-0795
+                </div>
+                <div>
+                    <a href="https://goo.gl/maps/EJGHvzotkESp9fyd7"> Dirección:</a> Don Orione 1116, B1646 San Fernando, Provincia de Buenos Aires
+                </div>
+                <div>
+                    Lunes a Viernes	9:00–13:00, 15:00–18:00
+                    Sábado	9:00–13:00
+                    Domingo CERRADO
+                </div>
             </div>
-            <div>
-                <a href="https://goo.gl/maps/EJGHvzotkESp9fyd7"> Dirección:</a> Don Orione 1116, B1646 San Fernando, Provincia de Buenos Aires
+            <div class="form-consultas">
+                <h3>Envianos tu consulta</h3>
+                <form action="">
+                <div>
+                    <label for=""></label>
+                    <input type="text" placeholder="Nombre" required>
+                </div>
+                <div>
+                    <label for=""></label>
+                    <input type="mail" placeholder="Mail" required>
+                </div>
+                <div>
+                    <label for=""></label>
+                    <input type="tel" placeholder="Teléfono" required>
+                </div>
+                <div>
+                    <label for=""></label>
+                    <textarea name="mensaje" id="mesaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                </div>
+                <div>
+                    <input type="submit">
+                </div>
+                </form>
             </div>
-            <div>
-                Lunes a Viernes	9:00–13:00, 15:00–18:00
-                Sábado	9:00–13:00
-                Domingo CERRADO
-            </div>
-        </div>
-        <div class="form-consultas">
-            <h3>Envianos tu consulta</h3>
-            <form action="">
-            <div>
-                <label for=""></label>
-                <input type="text" placeholder="Nombre" required>
-            </div>
-            <div>
-                <label for=""></label>
-                <input type="mail" placeholder="Mail" required>
-            </div>
-            <div>
-                <label for=""></label>
-                <input type="tel" placeholder="Teléfono" required>
-            </div>
-            <div>
-                <label for=""></label>
-                <textarea name="mensaje" id="mesaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
-            </div>
-            <div>
-                <input class="button" type="submit">
-            </div>
-            </form>
-        </div>
-        </section>
+            </section>
         <section class="map-contactos d-flex justify-content-center">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.924685757958!2d-58.54042488560044!3d-34.45405965710013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcafe5e8330f6d%3A0xa9a33f5eb24972f1!2sGUALLINI%20%26%20PEIFER%20PROPIEDADES!5e0!3m2!1ses-419!2sar!4v1658276912609!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
@@ -106,8 +94,8 @@
     </main>
     <footer>
         <div  class="footer-container d-flex justify-content-between">
-    <div class="footer-firstClass d-flex flex-column justify-content-between align-items-center">
-        <img src="../images/logo-transp.png" alt="logo">
+    <div class="footer-firstClass d-flex flex-column justify-content-between align-items-center gap-3 p-4 p-sm-2">
+        <img src="../images/logo-transp.png" alt="logo" class="w-50 ms-5">
         <ul class="footer-redes">
             <a href="https://www.instagram.com/guallini.peifer/?hl=es"><i class="fa-brands fa-instagram"></i></a>
             <a href=""><i class="fa-brands fa-twitter"></i></a>
@@ -116,18 +104,18 @@
         </ul>
     </div>
         <nav>
-            <ul class="footer-navbar d-flex flex-column">
-                <a href="#">INICIO</a>
-                <a href="./pages/propiedades.html">PROPIEDADES</a>
-                <a href="./pages/emprendimientos.html">EMPRENDIMIENTOS</a>
-                <a href="./pages/nosotros.html">NOSOTROS</a>
-                <a href="./pages/contactos.html">CONTACTO</a>
+            <ul class="footer-navbar d-flex flex-column gap-3">
+                <a href="../index.html" class="text-decoration-none link-light">INICIO</a>
+                <a href="./propiedades.html" class="text-decoration-none link-light">PROPIEDADES</a>
+                <a href="./emprendimientos.html" class="text-decoration-none link-light">EMPRENDIMIENTOS</a>
+                <a href="./nosotros.html" class="text-decoration-none link-light">NOSOTROS</a>
+                <a href="./contactos.html" class="text-decoration-none link-light">CONTACTO</a>
             </ul>
         </nav>
         <ul class="contacto d-flex align-items-center">
-            <a href="https://goo.gl/maps/EJGHvzotkESp9fyd7"><i class="fa-solid fa-map-location-dot"></i></a>
-            <a href="info@guallinipeifer.com"><i class="fa-solid fa-envelope"></i></a>
-            <a href="tel:(011) 4725-0795//3221-4106"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://goo.gl/maps/EJGHvzotkESp9fyd7" class="link-light"><i class="fa-solid fa-map-location-dot"></i></a>
+            <a href="info@guallinipeifer.com" class="link-light"><i class="fa-solid fa-envelope"></i></a>
+            <a href="tel:(011) 4725-0795//3221-4106" class="link-light"><i class="fa-solid fa-phone"></i></a>
         </ul>
     </div>
         <div class="copyright p-2">©2022 Guallini Propiedades. Todos los derechos reservados.</div>
