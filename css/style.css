@@ -24,6 +24,7 @@ header {
     top: 0px;
     z-index: 10;
 }
+<<<<<<< HEAD
 
 /* header img {
     height: 70px;
@@ -38,11 +39,9 @@ header {
     align-items: center;
     padding: 5px;
 } */
+=======
+>>>>>>> sass
 
-/* .menu-navbar a {
-    padding: 10px;
-    color: white;
-} */
 
 .menu-navbar a:hover{
     color:rgb(5, 5, 5);
@@ -113,6 +112,10 @@ main {
     color:rgb(5, 5, 5)
 }
 .propiedades-container {
+<<<<<<< HEAD
+=======
+    gap: 20px;
+>>>>>>> sass
     margin: 100px 60px 50px 200px;
 }
 .div_propiedades {
@@ -130,7 +133,6 @@ main {
 .cards_propiedades {
     padding: 20px 25px 20px 25px;
     gap: 20px;
-
 }
 
 .propiedadFav {
@@ -230,8 +232,6 @@ h3 {
     text-align: justify;
 }
 .informacion {
-    /* display: flex;
-    justify-content: space-evenly; */
     margin-bottom: 124px;
     margin-top: 100px;
 }
@@ -318,6 +318,12 @@ textarea {
     padding: 20px 30px;
 }
 
+<<<<<<< HEAD
+=======
+.footer-container {
+    height: 100%;
+}
+>>>>>>> sass
 .map-contactos {
     margin-bottom: 100px;
 }
@@ -337,7 +343,6 @@ textarea {
     margin: 50px 300px;
 }
 
-
 footer div {
     background-color: #ad2831;
 }
@@ -353,11 +358,15 @@ footer img {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .footer-firstClass {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+=======
+.footer-firstClass {
+>>>>>>> sass
     width: 200px;
     margin-left: 70px;
     padding: 28px;
@@ -370,6 +379,10 @@ footer img {
     color: black;
 }
 .footer-navbar {
+<<<<<<< HEAD
+=======
+    gap: 12px;
+>>>>>>> sass
     margin-top: 28px;
     font-size: 13px;
 }
@@ -397,7 +410,10 @@ footer {
     grid-area: footer;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> sass
 @media screen and (min-width: 0px) and (max-width: 767px) {
     /* header {
         height: 10%;
@@ -473,6 +489,7 @@ footer {
         right: 20px;
         top: 150px;
 <<<<<<< HEAD
+<<<<<<< HEAD
     }
 
 
@@ -504,3 +521,6 @@ BS */
 =======
     }
 >>>>>>> bootstrap
+=======
+    }
+>>>>>>> sass
