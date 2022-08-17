@@ -25,10 +25,6 @@ header {
     z-index: 10;
 }
 
-.menu-navbar a:hover{
-    color:rgb(5, 5, 5);
-    border-bottom: 0.5px solid rgb(5, 5, 5);
-}
 
 a:hover {
     color:rgb(5, 5, 5);
@@ -79,8 +75,6 @@ main {
 }
 .text-secondSection {
     line-height: 25px;
-    /* margin-left: 300px;
-    margin-right: 300px; */
     color: #ad2831;
     padding: 20px;
 }
@@ -94,10 +88,7 @@ main {
     color:rgb(5, 5, 5)
 }
 .propiedades-container {
-<<<<<<< HEAD
-=======
     gap: 20px;
->>>>>>> sass
     margin: 100px 60px 50px 200px;
 }
 .div_propiedades {
@@ -129,15 +120,12 @@ main {
 }
 
 .propiedadFav i:hover {
-<<<<<<< HEAD
     color:red;
 }
 .cards_propiedades h4::selection {
     color:#ad2831;
-=======
     color:rgba(255, 0, 0, 0.642);
 }
->>>>>>> bootstrap
 
 @keyframes agrandar {
     0% {
@@ -450,8 +438,6 @@ footer {
         position: relative;
         right: 20px;
         top: 150px;
-<<<<<<< HEAD
-<<<<<<< HEAD
     }
 
 
@@ -473,16 +459,3 @@ footer {
 @media screen and (min-width: 768px) and (max-width: 1024px){
 
 }
-
-
-/* 
-BS */
-/* .color-navbar {
-    background-color: #ad2831; 
-} */
-=======
-    }
->>>>>>> bootstrap
-=======
-    }
->>>>>>> sass

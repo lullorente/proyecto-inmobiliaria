@@ -1,0 +1,12 @@
+header {
+    grid-area: header;
+    background-color: $color-primario;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    font-size: 0.8em;
+    .nav-link:hover {
+            border-bottom: 1px solid $color-link-hover;
+            font-size: 1.1em;
+        }
+}

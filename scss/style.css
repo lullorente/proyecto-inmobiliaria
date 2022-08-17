@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+i:hover {
+  color: #050505;
+}
+
+header {
+  grid-area: header;
+  background-color: #ad2831;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+  font-size: 0.8em;
+}
+
+header .nav-link:hover {
+  border-bottom: 1px solid #050505;
+  font-size: 1.1em;
+}
+
+footer ul > * {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer {
+  grid-area: footer;
+}
+
+footer .footer-container {
+  height: 100%;
+}
+
+footer div {
+  background-color: #ad2831;
+}
+
+footer .footer-firstClass {
+  width: 200px;
+  margin-left: 70px;
+  padding: 28px;
+  gap: 20px;
+}
+
+footer .footer-firstClass i:hover {
+  color: #050505;
+}
+
+footer img {
+  height: 75%;
+  width: 60%;
+}
+
+footer .footer-redes i {
+  font-size: 20px;
+  margin-left: 10px;
+  color: #ffffff;
+}
+
+footer .footer-navbar {
+  gap: 12px;
+  margin-top: 28px;
+  font-size: 13px;
+}
+
+footer .footer-navbar a:hover {
+  color: #050505;
+}
+
+footer .contacto {
+  font-size: 22px;
+  width: 200px;
+  gap: 28px;
+  margin-right: 130px;
+}
+
+footer .contacto a:hover {
+  color: #050505;
+}
+
+footer .copyright {
+  font-size: 13px;
+  background-color: #4e4e4e;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

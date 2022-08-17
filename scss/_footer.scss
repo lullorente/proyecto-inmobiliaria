@@ -1,6 +1,6 @@
 footer {
     ul > * {
-        color: #ffffff;
+        color: $color-blanco;
         text-decoration: none;
     }
 }
@@ -8,31 +8,34 @@ footer {
     grid-area: footer;
     .footer-container {
         height: 100%;
-        div {
-            background-color: #ad2831;
-        .footer-firstClass {
+    }
+    div {
+            background-color: $color-primario;
+        }
+    .footer-firstClass {
             width: 200px;
             margin-left: 70px;
             padding: 28px;
             gap: 20px;
-            img {
-            height: 75%;
-            width: 60%;
+            i:hover {
+                color: $color-icons-hover;
             }
         }
-    }
-}
+    img {
+        height: 75%;
+        width: 60%;
+        }
     .footer-redes i {
     font-size: 20px;
     margin-left: 10px;
-    color: #ffffff;
+    color: $color-blanco;
 }
     .footer-navbar {
     gap: 12px;
     margin-top: 28px;
     font-size: 13px;
     a:hover{
-        color:rgb(5, 5, 5)
+        color:$color-link-hover;
     }
 }
 .contacto {
@@ -40,5 +43,13 @@ footer {
     width: 200px;
     gap: 28px;
     margin-right: 130px;
+    a:hover {
+        color:$color-link-hover;
+    }
+}
+.copyright {
+    font-size: 13px;
+    background-color: $color-terciario;
+    text-align: center;
 }
 }
