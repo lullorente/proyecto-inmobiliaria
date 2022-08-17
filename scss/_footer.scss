@@ -1,0 +1,44 @@
+footer {
+    ul > * {
+        color: #ffffff;
+        text-decoration: none;
+    }
+}
+footer {
+    grid-area: footer;
+    .footer-container {
+        height: 100%;
+        div {
+            background-color: #ad2831;
+        .footer-firstClass {
+            width: 200px;
+            margin-left: 70px;
+            padding: 28px;
+            gap: 20px;
+            img {
+            height: 75%;
+            width: 60%;
+            }
+        }
+    }
+}
+    .footer-redes i {
+    font-size: 20px;
+    margin-left: 10px;
+    color: #ffffff;
+}
+    .footer-navbar {
+    gap: 12px;
+    margin-top: 28px;
+    font-size: 13px;
+    a:hover{
+        color:rgb(5, 5, 5)
+    }
+}
+.contacto {
+    font-size: 22px;
+    width: 200px;
+    gap: 28px;
+    margin-right: 130px;
+}
+}

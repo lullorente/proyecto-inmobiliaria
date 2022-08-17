@@ -24,24 +24,6 @@ header {
     top: 0px;
     z-index: 10;
 }
-<<<<<<< HEAD
-
-/* header img {
-    height: 70px;
-    position: relative;
-    left: 50px;
-    top: 5px;
-} */
-/* .menu-navbar {
-    font-size: 13px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px;
-} */
-=======
->>>>>>> sass
-
 
 .menu-navbar a:hover{
     color:rgb(5, 5, 5);
@@ -193,8 +175,6 @@ h2 {
 .destacadas img:hover {
     filter: grayscale(0);
     -webkit-filter: grayscale(0);
-<<<<<<< HEAD
-=======
     animation: zoom 2s ease-out;
     -webkit-animation: zoom 2s ease-out;
     cursor: pointer;
@@ -222,8 +202,6 @@ h2 {
         -ms-transform: scale(1) ;
         -o-transform: scale(1) ;
 }
-
->>>>>>> bootstrap
 }
 h3 {
     font-weight: bold;
@@ -318,12 +296,6 @@ textarea {
     padding: 20px 30px;
 }
 
-<<<<<<< HEAD
-=======
-.footer-container {
-    height: 100%;
-}
->>>>>>> sass
 .map-contactos {
     margin-bottom: 100px;
 }
@@ -357,32 +329,26 @@ footer img {
     color: #ffffff;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 .footer-firstClass {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-=======
+}
+
 .footer-firstClass {
->>>>>>> sass
     width: 200px;
     margin-left: 70px;
     padding: 28px;
     gap: 20px;
 }
-=======
 
->>>>>>> bootstrap
 .footer-firstClass i:hover {
     color: black;
 }
 .footer-navbar {
-<<<<<<< HEAD
-=======
     gap: 12px;
->>>>>>> sass
     margin-top: 28px;
     font-size: 13px;
 }
@@ -410,10 +376,6 @@ footer {
     grid-area: footer;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> sass
 @media screen and (min-width: 0px) and (max-width: 767px) {
     /* header {
         height: 10%;
