@@ -3,6 +3,29 @@
     padding: 0;
     box-sizing: border-box;   
 }
+body {
+    font-family:$tipografia-general;
+}
 i:hover {
     color:$color-link-hover;
+}
+.whatsapp {
+    font-size: 30px;
+    width: 45px;
+    height: 43px;
+    background: $color-whatsapp;
+    position: fixed;
+    z-index: 100;
+    bottom: 35px;
+    right: 30px;
+    box-shadow: black;
+    color:$color-blanco;
+    text-align: center;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    i:hover, a:hover {
+        color: $color-blanco;
+    }
 }

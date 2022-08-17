@@ -1,0 +1,15 @@
+.secondSection {
+    background-color: $color-secundario;
+    height: 20vh;
+    .text-secondSection {
+        line-height: 25px;
+        color: $color-primario;
+        padding: 20px;
+    }
+    .link-secondSection a{
+        color:$color-link-azul;
+        &:hover{
+            color:$color-link-hover;
+    }
+}
+}

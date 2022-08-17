@@ -1,0 +1,58 @@
+.informacion {
+    margin-bottom: 124px;
+    margin-top: 100px;
+    .info-sucursal {
+        margin-left: 40px;
+        font-size: 14px;
+        line-height: 35px;
+        text-align: justify;
+        width: 330px;
+        background-color: #ad2831cc;
+        background-size: cover;
+        box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.389);
+        h3 {
+            text-align: center;
+            font-weight: bold;
+            margin-left: 5px;
+            font-size: 17px;
+        }
+        div {
+            padding: 13px;
+        }
+        img {
+            height: 150px;
+            width: 330px;
+        }
+        a {
+            color: rgb(5, 5, 5);
+            font-weight: bold;
+        }
+    }
+    .form-consultas {
+        background-color: #e6e6e6;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        width: 290px;
+        height: 410px;
+        padding: 20px 30px;
+        div {
+        padding: 2px;
+    }
+        h3 {
+            font-size: 1.1em;
+        text-align: center;
+        border-bottom:2px solid #78788c;
+    }
+    input, textarea {
+        width: 100%;
+        background: none;
+        border: 1px solid #78788c;
+    }
+    textarea {
+        height: 100px;
+    }
+}
+}
