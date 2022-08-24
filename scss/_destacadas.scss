@@ -1,8 +1,11 @@
 .destacadas {
     h2 {
-        font-size: 18px;
+        font-size: map-get($sizes, 18);
         margin-left: 20px;
         margin-top: 20px;
+    }
+    .img_destacadas {
+        @include flex-direction-center (row)
     }
     img {
     height: 300px;
@@ -16,5 +19,28 @@
         -webkit-animation: zoom 2s ease-out;
         cursor: pointer;
     }
+}
+}
+@keyframes zoom {
+    0% {
+        transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+        -moz-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+        -o-transform: scale(0.5);
+}
+    25% {
+        transform: scale(1)    ;
+        -webkit-transform: scale(1)    ;
+        -moz-transform: scale(1)    ;
+        -ms-transform: scale(1)    ;
+        -o-transform: scale(1)    ;
+}
+    100% {
+        transform: scale(1) ;
+        -webkit-transform: scale(1) ;
+        -moz-transform: scale(1) ;
+        -ms-transform: scale(1) ;
+        -o-transform: scale(1) ;
 }
 }

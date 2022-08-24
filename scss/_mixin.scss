@@ -1,0 +1,21 @@
+@mixin flex-direction-center ($direction) {
+    display:flex;
+    flex-direction: $direction;
+    justify-content: center;
+}
+
+
+@mixin redes($nombre){
+    @if $nombre == instagram{
+        color:rgb(251, 58, 14);
+    }@else if $nombre == facebook{
+        color: rgb(5, 5, 255);
+    }@else if $nombre == twitter{ 
+        color: rgb(27, 148, 246);
+    }
+    @else if $nombre == telegram{ 
+        color: rgb(15, 1, 64);
+    }@else {
+        color:black;
+    }
+}

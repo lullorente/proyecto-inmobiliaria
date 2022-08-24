@@ -54,7 +54,6 @@ main {
 .form-firstSection {
     margin-left: 420px;
     margin-top: 20px;
-
 }
 .boton-buscar {
     font-weight: bold;
@@ -211,9 +210,6 @@ h3 {
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.389);
 }
 
-.info-sucursal h3 {
-    text-align: center;
-}
 .info-sucursal div {
     padding: 13px;
 }

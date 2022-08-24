@@ -1,3 +1,6 @@
+$tipografia-general: 'Montserrat', sans-serif;
+$tipografia-alternativa: 'Times New Roman', Times, serif;
+
 $color-primario: #ad2831;
 $color-secundario: #f4f4f4;
 $color-terciario: #4e4e4e;
@@ -6,7 +9,37 @@ $color-link-hover:#050505;
 $color-whatsapp: rgb(26, 219, 26);
 $color-blanco: #ffffff;
 $color-link-azul: royalblue;
+$color-corazon: red;
+$color-black: black;
+
+$red-facebook:  rgb(5, 5, 255);
+$red-twitter: rgb(27, 148, 246);
+$red-instagram: rgb(251, 58, 14);
+$red-telegram: rgb(15, 1, 64);
+$red-tiktok: rgb(255, 0, 221);
+
+$sizes: (
+    12: 0.8em,
+    14: 0.9em,
+    16: 1em,
+    18: 1.1em,
+    20: 1.2em,
+    24: 1.5em,
+    30: 1.9em,
+);
+
+$redes: (
+    facebook: rgb(5, 5, 255),
+    twitter: rgb(27, 148, 246),
+    instagram: rgb(251, 58, 14),
+    telegram: rgb(15, 1, 64),
+    tiktok: rgb(255, 0, 221)
+)
 
 
-$tipografia-general: 'Montserrat', sans-serif;
-$tipografia-alternativa: 'Times New Roman', Times, serif;
+
+
+
+
+
+

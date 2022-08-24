@@ -10,7 +10,7 @@ i:hover {
     color:$color-link-hover;
 }
 .whatsapp {
-    font-size: 30px;
+    font-size: map-get($sizes, 30);
     width: 45px;
     height: 43px;
     background: $color-whatsapp;
@@ -18,14 +18,18 @@ i:hover {
     z-index: 100;
     bottom: 35px;
     right: 30px;
-    box-shadow: black;
+    box-shadow: $color-black;
     color:$color-blanco;
     text-align: center;
+    border-radius: 100px;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
     -ms-border-radius: 100px;
     -o-border-radius: 100px;
-    i:hover, a:hover {
+    i:hover {
+        color: $color-blanco;
+    }
+    a:hover {
         color: $color-blanco;
     }
 }

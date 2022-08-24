@@ -2,6 +2,7 @@
     background-color: $color-secundario;
     height: 20vh;
     .text-secondSection {
+        font-size: map-get($sizes, 16);
         line-height: 25px;
         color: $color-primario;
         padding: 20px;

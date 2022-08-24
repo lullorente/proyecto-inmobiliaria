@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INMOBILIARIA</title>
+    <meta name="description" content="Inmobiliria dedicada a la venta y alquileres de propiedades">
+    <meta name="keywords"  content="Inmobiliaria, Propiedades, Venta, Alquileres, Emprendimientos">
+    <title>Inmobiliaria</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" type="image/x-icon" href="./images/favicon (1).ico"">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -20,7 +22,7 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" bg-light>
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+            <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarNav">
                 <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link text-light" aria-current="page" href="#">INICIO</a>
@@ -45,25 +47,25 @@
     </header>
     <main>
         <section class="firstSection">
-            <h1 class="pt-5 text-center fs-4">Venta y Alquiler de Propiedades</h1>
+            <h1 class="pt-5 text-center fs-4 fw-bold">Venta y Alquiler de Propiedades</h1>
     <div class="form-firstSection">
         <form action="">
-            <select name="propiedades" id="">
-                <option value="propiedades">PROPIEDADES</option>
+            <select name="propiedades" id="" class="placeholder w-20  me-2">
+                <option value="propiedades">Propiedades</option>
                 <option value="casa">Casa</option>
                 <option value="departamento">Departamento</option>
                 <option value="ph">PH</option>
                 <option value="local">Local</option>
             </select>
-            <select name="operacion" id="">
-                <option value="operacion">OPERACION</option>
+            <select name="operacion" id="" class="placeholder w-5 text-center me-2">
+                <option value="operacion">Operación</option>
                 <option value="venta">VENTA</option>
                 <option value="alquiler">ALQUILER</option>
                 <option value="alquiler-temp">ALQUILER TEMPORARIO</option>
             </select>
 
-            <select name="ubicacion" id="">
-                <option value="ubicacion">UBICACION</option>
+            <select name="ubicacion" id="" class="placeholder w-20 text-center me-2">
+                <option value="ubicacion">Ubicación</option>
                 <option value="zona-norte">Zona Norte</option>
                 <option value="zona-sur">Zona Sur</option>
                 <option value="zona-oeste">Zona Oeste</option>
@@ -83,28 +85,34 @@
             </div>
         </section>
         <section class="destacadas">
-            <h2 class="d-flex justify-content-sm-center justify-content-md-start fw-bold">Propiedades destacadas</h2>
-        <div class="img_destacadas d-flex justify-content-center">
+            <h2 class="d-flex justify-content-sm-center justify-content-lg-start fw-bold">Propiedades destacadas</h2>
+        <div class="img_destacadas d-flex flex-sm-column align-items-sm-center flex-lg-row justify-content-lg-center">
             <ul>
-                <img src="./images/Casa1.jpeg" alt="Casa-en-venta">
-                <img src="./images/Casa2.jpeg" alt="">
-                <img src="./images/casa-stateresita.jpeg" alt="">
+                <img src="./images/Casa1.jpeg" alt="casa-en-venta">
+                <img src="./images/Casa2.jpeg" alt="casa-en-venta">
+                <img src="./images/casa-stateresita.jpeg" alt="casa-en-alquiler">
+                <img src="./images/Casa2.jpeg" alt="casa-en-alquiler">
+                <img src="./images/Casa2.jpeg" alt="casa-en-alquiler">
+                <img src="./images/casa-stateresita.jpeg" alt="casa-en-alquiler">
             </ul>
         </div>
         </section>
         <section class="destacadas">
             <h2 class="d-flex justify-content-sm-center justify-content-md-start fw-bold">Emprendimientos</h2>
-        <div class="img_destacadas d-flex justify-content-center">
+        <div class="img_destacadas">
             <ul>
-                <img src="./images/Casa1.jpeg" alt="Casa-en-venta">
-                <img src="./images/Casa2.jpeg" alt="">
-                <img src="./images/casa-stateresita.jpeg" alt="">
+                <img src="./images/Casa1.jpeg" alt="emprendimiento-en-venta">
+                <img src="./images/Casa2.jpeg" alt="casa-en-alquiler">
+                <img src="./images/casa-stateresita.jpeg" alt="casa-en-venta">
+                <img src="./images/Casa2.jpeg" alt="casa-en-alquiler">
+                <img src="./images/Casa2.jpeg" alt="casa-en-alquiler">
+                <img src="./images/casa-stateresita.jpeg" alt="casa-en-alquiler">
             </ul>
         </div>
         </section>
-        <section class="informacion d-flex flex-md-row justify-content-md-evenly flex-sm-column justify-content-sm-center align-items-sm-center ms-4">
+        <section class="informacion d-flex flex-lg-row justify-content-lg-evenly flex-sm-column align-items-sm-center gap-5 ms-4">
         <div class="info-sucursal">
-            <img src="./images/img-oficina.webp" alt="">
+            <img src="./images/img-oficina.webp" alt="imagen de oficina" class="img-fluid mb-3">
             <h3>SUCURSAL SAN FERNANDO</h3>
             <div>
                 <a href="tel:(011) 4725-0795//3221-4106">Teléfono:</a> 011 4725-0795
@@ -149,13 +157,13 @@
     </main>
     <footer>
         <div  class="footer-container d-flex flex-md-row justify-content-md-between flex-sm-column align-items-sm-center">
-    <div class="footer-firstClass d-flex flex-column justify-content-between align-items-center gap-3  p-4 p-sm-2">
+            <div class="footer-firstClass d-flex flex-column justify-content-between align-items-center gap-3 p-4 p-sm-2">
         <img src="./images/logo-transp.png" alt="logo" class="w-50 ms-5">
         <ul class="footer-redes">
-            <a href="https://www.instagram.com/guallini.peifer/?hl=es"><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-twitter"></i></a>
-            <a href="https://www.facebook.com/guallinipeiferpropiedades/"><i class="fa-brands fa-facebook"></i></a>
-            <a href=""><i class="fa-brands fa-telegram"></i></a>
+            <a href="https://www.instagram.com/guallini.peifer/?hl=es"><i class="fa-brands fa-instagram instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter twitter"></i></a>
+            <a href="https://www.facebook.com/guallinipeiferpropiedades/"><i class="fa-brands fa-facebook facebook"></i></a>
+            <a href=""><i class="fa-brands fa-telegram telegram"></i></a>
         </ul>
     </div>
         <nav>
