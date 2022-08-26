@@ -1,16 +1,64 @@
 @media screen and (min-width: 0px) and (max-width: 767px) {
-header img {
-    height: 90px;
-    left: 10px;
-}
-
-.secondSection {
-    height: 2%;
-}
-}
-
-@media screen and (min-width: 0px) and (max-width: 625px) {
+    header img {
+        width: 70%;
+        height: 100%;
+        left: 10px;
+    }
     .form-firstSection {
+        margin-left: 100px;
+    }
+    .boton-buscar {
+        @include flex-direction-center (column);
+        align-items: center;
+        margin-left: 130px;
+        margin-top: 10px;
+    }
+    .secondSection {
+        height: 60%;
+    }
+    .destacadas img {
+        @include flex-direction-center (column);
+        align-items: center;
+        filter: grayscale(0);
+        -webkit-filter: grayscale(0);
+    }
+    .whatsapp {
         display: none;
+    }
+    .aboutUs {
+        margin: 50px 50px;
+    }
+    .carousel {
+        width: 75%;
+    }
+    .informacion {
+        @include flex-direction-center (column);
+        align-items: center;
+    }
+    .map-contactos {
+        width: 75%;
+        margin: auto;
+    }
+    .footer-container {
+        @include flex-direction-center (row);
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .footer-firstClass{
+        @include flex-direction-center (column);
+        align-items: center;
+        margin: auto;
+        img {
+            width: 220px;
+            height: 100px;
+        }
+    }
+    .footer-redes {
+        @include flex-direction-center (row);
+    }
+    .contacto {
+        @include flex-direction-center (column);
+        align-items:center; 
+        gap: 2px;
     }
 }

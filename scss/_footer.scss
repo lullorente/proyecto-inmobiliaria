@@ -16,7 +16,6 @@ footer {
             width: 200px;
             margin-left: 70px;
             padding: 28px;
-            gap: 20px;
             i:hover {
                 color: $color-icons-hover;
             }
@@ -27,8 +26,7 @@ footer {
         }
     .footer-redes i {
         font-size: map-get($sizes, 20);
-        margin-left: 10px;
-        // color: $color-blanco;
+        margin-left: 8px;
 }
     .footer-navbar {
     gap: 12px;

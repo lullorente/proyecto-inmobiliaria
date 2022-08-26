@@ -58,8 +58,10 @@ header .nav-link:hover {
 
 .firstSection {
   background-image: url(../images/img-section.jpeg);
+  opacity: 0.8;
   background-size: cover;
   background-color: #d6d6d6;
+  height: 180px;
   font-weight: bold;
   color: black;
 }
@@ -81,7 +83,7 @@ header .nav-link:hover {
 
 .secondSection {
   background-color: #f4f4f4;
-  height: 20vh;
+  height: 100px;
 }
 
 .secondSection .text-secondSection {
@@ -267,7 +269,6 @@ footer .footer-firstClass {
   width: 200px;
   margin-left: 70px;
   padding: 28px;
-  gap: 20px;
 }
 
 footer .footer-firstClass i:hover {
@@ -281,7 +282,7 @@ footer img {
 
 footer .footer-redes i {
   font-size: 1.2em;
-  margin-left: 10px;
+  margin-left: 8px;
 }
 
 footer .footer-navbar {
@@ -459,17 +460,141 @@ footer .copyright {
 
 @media screen and (min-width: 0px) and (max-width: 767px) {
   header img {
-    height: 90px;
+    width: 70%;
+    height: 100%;
     left: 10px;
   }
-  .secondSection {
-    height: 2%;
-  }
-}
-
-@media screen and (min-width: 0px) and (max-width: 625px) {
   .form-firstSection {
+    margin-left: 100px;
+  }
+  .boton-buscar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 130px;
+    margin-top: 10px;
+  }
+  .secondSection {
+    height: 60%;
+  }
+  .destacadas img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+  }
+  .whatsapp {
     display: none;
+  }
+  .aboutUs {
+    margin: 50px 50px;
+  }
+  .carousel {
+    width: 75%;
+  }
+  .informacion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .map-contactos {
+    width: 75%;
+    margin: auto;
+  }
+  .footer-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 10px;
+  }
+  .footer-firstClass {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: auto;
+  }
+  .footer-firstClass img {
+    width: 220px;
+    height: 100px;
+  }
+  .footer-redes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contacto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 2px;
   }
 }
 /*# sourceMappingURL=style.css.map */
