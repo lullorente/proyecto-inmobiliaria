@@ -34,8 +34,14 @@ $redes: (
     instagram: rgb(251, 58, 14),
     telegram: rgb(15, 1, 64),
     tiktok: rgb(255, 0, 221)
-)
+);
 
+.titulos {
+	font-weight: bold;
+    text-align: center;
+	color: $color-black;
+	border-bottom: 1px solid $color-black;
+}
 
 
 
