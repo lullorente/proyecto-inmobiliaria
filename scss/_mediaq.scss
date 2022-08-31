@@ -22,9 +22,6 @@
         filter: grayscale(0);
         -webkit-filter: grayscale(0);
     }
-    .whatsapp {
-        display: none;
-    }
     .aboutUs {
         margin: 50px 50px;
     }
@@ -70,11 +67,41 @@
 
 
 @media screen and (min-width: 0px) and (max-width: 480px) {
+    .firstSection {
+        @include flex-direction-center (column);
+        align-items: center;
+        h1 {
+            line-height: 35px;
+            width: 150px;
+        }
+        .form-firstSection form {
+        display:none;
+        }
+    } 
+    
+    .secondSection {
+        height: 180px;
+    }
+    .destacadas {
+        h2 {
+            @include flex-direction-center (column);
+            align-items: center;
+        }
+        .img_destacadas {
+            @include flex-direction-center (column);
+            align-items: center;
+            margin-right: 25px;
+        }
+        img {
+        height: 250px;
+        padding: 10px;
+        }
+    }
     .info-sucursal {
             display: none;
     }
     .form-consultas {
         width: 80px;
-        margin-right: 20px;
+        margin-right: 40px;
     }
 }
