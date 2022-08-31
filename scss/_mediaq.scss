@@ -98,9 +98,8 @@
         display:none;
         }
     } 
-    
     .secondSection {
-        height: 180px;
+        height: 200px;
     }
     .destacadas {
         h2 {
@@ -117,15 +116,10 @@
         padding: 10px;
         }
     }
-    .div_propiedades {
-        @include flex-direction-center (column);
-        align-items: center;
-        width: 100px;
-        img {
-            width: 25%;
-            height: 10px;
+    .cards_propiedades {
+            @include flex-direction-center (column);
+            align-items: center;
         }
-    }
     .carousel {
         width: 100%;
     }

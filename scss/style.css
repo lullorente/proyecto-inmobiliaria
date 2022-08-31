@@ -664,7 +664,7 @@ footer .copyright {
     display: none;
   }
   .secondSection {
-    height: 180px;
+    height: 200px;
   }
   .destacadas h2 {
     display: -webkit-box;
@@ -701,7 +701,7 @@ footer .copyright {
     height: 250px;
     padding: 10px;
   }
-  .div_propiedades {
+  .cards_propiedades {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -715,11 +715,6 @@ footer .copyright {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 100px;
-  }
-  .div_propiedades img {
-    width: 25%;
-    height: 10px;
   }
   .carousel {
     width: 100%;
