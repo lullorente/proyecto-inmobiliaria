@@ -716,6 +716,13 @@ footer .copyright {
         -ms-flex-align: center;
             align-items: center;
   }
+  .aboutUs {
+    font-size: 0.75em;
+    line-height: 25px;
+  }
+  .aboutUs h1, .aboutUs h4 {
+    font-weight: bold;
+  }
   .carousel {
     width: 100%;
   }
@@ -725,6 +732,22 @@ footer .copyright {
   .form-consultas {
     width: 80px;
     margin-right: 40px;
+  }
+  .copyright {
+    font-size: 0.4em;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .img_destacadas img {
+    height: 190px;
+    padding: 10px;
+  }
+  .form-consultas {
+    margin-right: 45px;
+  }
+  .copyright {
+    font-size: 0.4em;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -120,6 +120,13 @@
             @include flex-direction-center (column);
             align-items: center;
         }
+    .aboutUs {
+        font-size: map-get($sizes, 24) / 2;
+        line-height: 25px;
+        h1, h4 { 
+            font-weight: bold;
+            }
+        }
     .carousel {
         width: 100%;
     }
@@ -130,4 +137,19 @@
         width: 80px;
         margin-right: 40px;
     }
+    .copyright {
+        font-size: map-get($sizes, 12) / 2;
+    }
 }}
+@media screen and (min-width: 0px) and (max-width: 320px) {
+    .img_destacadas img {
+        height: 190px;
+        padding: 10px;
+        }
+        .form-consultas {
+            margin-right: 45px;
+        }
+        .copyright {
+            font-size: map-get($sizes, 12) / 2;
+        }
+}
