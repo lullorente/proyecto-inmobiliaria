@@ -483,6 +483,60 @@ footer .copyright {
     filter: grayscale(0);
     -webkit-filter: grayscale(0);
   }
+  .propiedades-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .propiedades-container .div_propiedades {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 400px;
+  }
+  .propiedades-container .div_propiedades img {
+    width: 75%;
+    height: 250px;
+  }
+  .propiedades-container .div_propiedades .propiedadFav {
+    display: none;
+  }
+  .propiedades-container .div_propiedades .cards_propiedades {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 300px;
+  }
   .aboutUs {
     margin: 50px 50px;
   }
@@ -586,7 +640,7 @@ footer .copyright {
   }
 }
 
-@media screen and (min-width: 0px) and (max-width: 480px) {
+@media screen and (min-width: 0px) and (max-width: 767px) and (min-width: 0px) and (max-width: 480px) {
   .firstSection {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -646,6 +700,29 @@ footer .copyright {
   .destacadas img {
     height: 250px;
     padding: 10px;
+  }
+  .div_propiedades {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100px;
+  }
+  .div_propiedades img {
+    width: 25%;
+    height: 10px;
+  }
+  .carousel {
+    width: 100%;
   }
   .info-sucursal {
     display: none;
