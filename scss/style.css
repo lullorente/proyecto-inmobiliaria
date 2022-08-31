@@ -90,13 +90,13 @@ header .nav-link:hover {
 
 .secondSection {
   background-color: #f4f4f4;
-  height: 100px;
+  height: 120px;
 }
 
 .secondSection .text-secondSection {
   font-size: 1em;
   line-height: 25px;
-  color: #ad2831;
+  color: black;
   padding: 20px;
 }
 
@@ -193,34 +193,6 @@ header .nav-link:hover {
 .informacion {
   margin-bottom: 124px;
   margin-top: 100px;
-}
-
-.informacion .info-sucursal {
-  margin-left: 40px;
-  font-size: 2em;
-  line-height: 35px;
-  text-align: justify;
-  width: 430px;
-  background-color: #ad2831;
-  background-size: cover;
-  -webkit-box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.389);
-          box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.389);
-}
-
-.informacion .info-sucursal h3 {
-  text-align: center;
-  font-weight: bold;
-  margin-left: 5px;
-  font-size: 17px;
-}
-
-.informacion .info-sucursal div {
-  padding: 13px;
-}
-
-.informacion .info-sucursal a {
-  color: black;
-  font-weight: bold;
 }
 
 .informacion .form-consultas {
@@ -337,7 +309,7 @@ footer .copyright {
 
 .propiedades-container {
   gap: 20px;
-  margin: 80px 60px 50px 200px;
+  margin: 80px 60px 60px 80px;
 }
 
 .propiedades-container .div_propiedades {
@@ -543,17 +515,16 @@ footer .copyright {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    gap: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .footer-firstClass {
     display: -webkit-box;
@@ -569,7 +540,8 @@ footer .copyright {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: auto;
+    margin-right: 100px;
+    gap: 20px;
   }
   .footer-firstClass img {
     width: 220px;
@@ -587,7 +559,7 @@ footer .copyright {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .contacto {
+  .footer-navbar {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -598,10 +570,32 @@ footer .copyright {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    margin-top: 0;
+  }
+  .contacto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     gap: 2px;
+    margin-left: 100px;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
+  .info-sucursal {
+    display: none;
+  }
+  .form-consultas {
+    width: 80px;
+    margin-right: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */

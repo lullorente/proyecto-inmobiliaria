@@ -11,6 +11,7 @@
     <link rel="icon" type="image/x-icon" href="./images/favicon (1).ico"">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./scss/style.css">
 </head>
 <body>
@@ -88,12 +89,12 @@
             <h2 class="d-flex justify-content-sm-center justify-content-lg-start fw-bold">Propiedades destacadas</h2>
         <div class="img_destacadas d-flex  flex-lg-row justify-content-lg-center">
             <ul>
-                <img src="./images/Casa1.jpeg" alt="casa-en-venta" loading="lazy">
-                <img src="./images/Casa2.jpeg" alt="casa-en-venta" loading="lazy">
-                <img src="./images/casa-stateresita.jpeg" alt="casa-en-alquiler" loading="lazy">
-                <img src="./images/Casa2.jpeg" alt="casa-en-alquiler" loading="lazy">
-                <img src="./images/Casa2.jpeg" alt="casa-en-alquiler" loading="lazy">
-                <img src="./images/casa-stateresita.jpeg" alt="casa-en-alquiler" loading="lazy">
+                <a class="navbar-brand" href="./pages/propiedades.html"><img src="./images/Casa1.jpeg" alt="casa-en-venta" loading="lazy"> </a>
+                <a class="navbar-brand" href="./pages/propiedades.html"><img src="./images/Casa2.jpeg" alt="casa-en-venta" loading="lazy"></a>
+                <a class="navbar-brand" href="./pages/propiedades.html"><img src="./images/casa-stateresita.jpeg" alt="casa-en-alquiler" loading="lazy"></a>
+                <a class="navbar-brand" href="./pages/propiedades.html"><img src="./images/Casa2.jpeg" alt="casa-en-alquiler" loading="lazy"></a>
+                <a class="navbar-brand" href="./pages/propiedades.html"><img src="./images/Casa2.jpeg" alt="casa-en-alquiler" loading="lazy"></a>
+                <a class="navbar-brand" href="./pages/propiedades.html"><img src="./images/casa-stateresita.jpeg" alt="casa-en-alquiler" loading="lazy"></a>
             </ul>
         </div>
         </section>
@@ -101,16 +102,16 @@
             <h2 class=".titulos d-flex justify-content-sm-center justify-content-md-start fw-bold">Emprendimientos</h2>
         <div class="img_destacadas">
             <ul>
-                <img src="./images/Casa1.jpeg" alt="emprendimiento-en-venta" loading="lazy">
-                <img src="./images/Casa2.jpeg" alt="casa-en-alquiler" loading="lazy">
-                <img src="./images/casa-stateresita.jpeg" alt="casa-en-venta" loading="lazy">
-                <img src="./images/Casa2.jpeg" alt="casa-en-alquiler" loading="lazy">
-                <img src="./images/Casa2.jpeg" alt="casa-en-alquiler" loading="lazy">
-                <img src="./images/casa-stateresita.jpeg" alt="casa-en-alquiler" loading="lazy">
+                <a class="navbar-brand" href="./pages/emprendimientos.html"><img src="./images/Casa1.jpeg" alt="emprendimiento-en-venta" loading="lazy"></a>
+                <a class="navbar-brand" href="./pages/emprendimientos.html"><img src="./images/Casa2.jpeg" alt="casa-en-alquiler" loading="lazy"></a>
+                <a class="navbar-brand" href="./pages/emprendimientos.html"><img src="./images/casa-stateresita.jpeg" alt="casa-en-venta" loading="lazy"></a>
+                <a class="navbar-brand" href="./pages/emprendimientos.html"><img src="./images/Casa2.jpeg" alt="casa-en-alquiler" loading="lazy"></a>
+                <a class="navbar-brand" href="./pages/emprendimientos.html"><img src="./images/Casa2.jpeg" alt="casa-en-alquiler" loading="lazy"></a>
+                <a class="navbar-brand" href="./pages/emprendimientos.html src="./images/casa-stateresita.jpeg" alt="casa-en-alquiler" loading="lazy"></a>
             </ul>
         </div>
         </section>
-        <section class="informacion d-flex flex-lg-row justify-content-lg-evenly flex-sm-column align-items-sm-center gap-5 ms-4">
+        <section class="informacion d-flex flex-lg-row justify-content-lg-evenly flex-sm-column align-items-sm-center gap-5 ms-4" data-aos="zoom-in">
         <div class="form-consultas ms-4">
             <h3>Envianos tu consulta</h3>
             <form action="">
@@ -171,5 +172,12 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init({
+				easing: 'ease-out-back',
+				duration: 1000
+			});
+    </script>
 </body>
 </html>

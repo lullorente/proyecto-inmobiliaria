@@ -40,14 +40,14 @@
         margin: auto;
     }
     .footer-container {
-        @include flex-direction-center (row);
-        justify-content: space-between;
-        gap: 10px;
+        @include flex-direction-center (column);
+        align-items: center;
     }
     .footer-firstClass{
         @include flex-direction-center (column);
         align-items: center;
-        margin: auto;
+        margin-right: 100px;
+        gap: 20px;
         img {
             width: 220px;
             height: 100px;
@@ -56,9 +56,25 @@
     .footer-redes {
         @include flex-direction-center (row);
     }
-    .contacto {
+    .footer-navbar {
         @include flex-direction-center (column);
-        align-items:center; 
+        margin-top: 0;
+    }
+    .contacto {
+        @include flex-direction-center (row);
         gap: 2px;
+        margin-left: 100px;
+        margin-top: 40px;
+    }
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
+    .info-sucursal {
+            display: none;
+    }
+    .form-consultas {
+        width: 80px;
+        margin-right: 20px;
     }
 }
