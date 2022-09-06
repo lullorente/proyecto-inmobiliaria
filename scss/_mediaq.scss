@@ -25,10 +25,12 @@
     .propiedades-container {
         @include flex-direction-center (column);
         align-items: center;
+        width: 80%;
+        gap: 30px;
     .div_propiedades {
         @include flex-direction-center (column);
         align-items: center;
-        width: 400px;
+        width: 80%;
         img {
             width: 75%;
             height: 250px;
@@ -116,6 +118,14 @@
         padding: 10px;
         }
     }
+    .propiedades-container {
+        margin: 50px 60px 60px 90px;
+        gap: 30px;
+        width: 60%;
+        .div_propiedades {
+            width: 100%;
+        }
+    }
     .cards_propiedades {
             @include flex-direction-center (column);
             align-items: center;
@@ -149,7 +159,24 @@
         .form-consultas {
             margin-right: 45px;
         }
+        .propiedades-container {
+            gap: 30px;
+            width: 40%;
+            .div_propiedades {
+                font-size: map-get($sizes, 12) / 1.4;
+                img {
+                    height: 24%;
+                }
+            }
+            .cards_propiedades {
+                gap: 5px;
+                h4 {
+                    font-size: map-get($sizes, 12);
+                }
+        }
+    }
         .copyright {
             font-size: map-get($sizes, 12) / 2;
         }
+
 }

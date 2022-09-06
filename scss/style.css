@@ -310,17 +310,37 @@ footer .copyright {
 .propiedades-container {
   gap: 20px;
   margin: 80px 60px 60px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .propiedades-container .div_propiedades {
   background-color: #4444443e;
-  width: 100%;
+  width: 90%;
   height: 25%;
   -webkit-box-shadow: 0 0 10px #78788c;
           box-shadow: 0 0 10px #78788c;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .propiedades-container .div_propiedades img {
@@ -339,8 +359,8 @@ footer .copyright {
 .propiedades-container .div_propiedades .propiedadFav {
   font-size: 1.5em;
   position: relative;
-  right: -110px;
-  top: 130px;
+  right: 10px;
+  top: 120px;
   -webkit-animation-duration: 2s;
           animation-duration: 2s;
   -webkit-animation-name: agrandar;
@@ -497,6 +517,8 @@ footer .copyright {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    width: 80%;
+    gap: 30px;
   }
   .propiedades-container .div_propiedades {
     display: -webkit-box;
@@ -512,7 +534,7 @@ footer .copyright {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 400px;
+    width: 80%;
   }
   .propiedades-container .div_propiedades img {
     width: 75%;
@@ -701,6 +723,14 @@ footer .copyright {
     height: 250px;
     padding: 10px;
   }
+  .propiedades-container {
+    margin: 50px 60px 60px 90px;
+    gap: 30px;
+    width: 60%;
+  }
+  .propiedades-container .div_propiedades {
+    width: 100%;
+  }
   .cards_propiedades {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -745,6 +775,22 @@ footer .copyright {
   }
   .form-consultas {
     margin-right: 45px;
+  }
+  .propiedades-container {
+    gap: 30px;
+    width: 40%;
+  }
+  .propiedades-container .div_propiedades {
+    font-size: 0.57143em;
+  }
+  .propiedades-container .div_propiedades img {
+    height: 24%;
+  }
+  .propiedades-container .cards_propiedades {
+    gap: 5px;
+  }
+  .propiedades-container .cards_propiedades h4 {
+    font-size: 0.8em;
   }
   .copyright {
     font-size: 0.4em;
